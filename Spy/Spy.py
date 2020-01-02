@@ -9,7 +9,7 @@ flag = 0
 while True:
     r = requests.get('https://api.vk.com/method/users.get?', params={
         'access_token':token,
-        'user_ids':'id528797001',
+        'user_ids':'id#########',
         'fields':'online',
         'v':5.103,
     })
