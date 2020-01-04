@@ -1,4 +1,4 @@
-#https://vk.com/id528797001
+#https://vk.com/id########
 from time import sleep
 import requests
 import datetime
