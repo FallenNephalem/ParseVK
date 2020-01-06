@@ -4,7 +4,7 @@ import requests
 import datetime
 datetime.datetime.now()
 
-token='57da844e6876e3e01596435a15264c5cbc8f58f2408b72784b19ea4eb06e3106886075e7c50aaff9ea5db'
+token='your_access_token'
 flag = 0
 while True:
     r = requests.get('https://api.vk.com/method/users.get?', params={
